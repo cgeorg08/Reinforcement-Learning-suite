@@ -1,5 +1,6 @@
 # Reinforcement Learning - Policy-based RL
 
+## Our main branch can be found [here](https://github.com/simy1/RL_A3)
 
 ## Brief Description
 This project shows how policy-based algorithms deal with the Catch Environment. Regarding our environment, we utilize a custamizable version of the Catch Environment (OpenAI GYM) produced by Thomas Moerland. The algorithms that are used are: (a) REINFORCE and (b) Actor-Critic. For the former, the implementation is straight forward. However, the Actor-Critic implementation makes use of some flags that enable us to run the corresponding algorithm with or without bootstrapping and baseline subtraction (thus, we have 4 distinct combinations). We enhance these algotithms by using entropy regularization. By doing so, we are able to maintain the distribution over action probabilities and avoid having one action which dominates the others. Therefore, we focus on how these algorithms, and especially the most powerful one (Actor-Critic with bootstapping and baseline subtraction), deal with the problem when hyperparameters, such as the learning rate, are modified. In addition, we investigate their performance when the environment alters, for example by enlarging the dimensions of the grid or changing the speed of dropping balls. Lastly, we implement and experiment with the state-of-the-art algorithm PPO-clip.
