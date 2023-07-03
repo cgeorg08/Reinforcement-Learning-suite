@@ -1,5 +1,6 @@
 # Reinforcement Learning - DQN
 
+## Original code can be found [here](https://github.com/simy1/RL_A2)
 
 ## Brief Description
 This project applies the DQN algorithm to solve the CartPole Environment (OpenAI GYM). Apart from the DQN baseline algorithm, we implement three more DQN versions: a DQN version that maintains an Experience Replay Buffer, another one that uses a Target Network and the standard DQN version (which combines these two techniques). Ragrding exploration strategies, we use epsilon annealing and boltzmann policies. We focus on how these versions of DQN, and especially the most powerful one, deal with the problem when hyperparameters change / are adjusted such as the learning rate, eploration factor, exploration strategy and architecture of the neural network. In addition, we investigate how the algorithm responds to a different environment with distinct philosophy. Therefore, we test it in the Acrobot Environment (OpenAI GYM).
